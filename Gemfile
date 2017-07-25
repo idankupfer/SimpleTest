@@ -32,3 +32,5 @@ group :development do
 end
 
 gem 'simple_form'
+gem "rspec-rails", :group => [:development, :test]
+gem 'rake', '< 11.0'
